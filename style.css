@@ -44,6 +44,7 @@
     background-color:rgba(255, 235, 205, 0.271);
     margin: 0px;
     font-family: "Pacifico", cursive;
+    cursor: pointer;
 }
 
 #numbers{
@@ -51,5 +52,4 @@
     padding-bottom: 5px;
     font-family: 'Pacifico', cursive;
     font-size: xx-large;
-    curser: pointer;
 }
