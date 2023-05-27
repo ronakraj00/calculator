@@ -1,7 +1,7 @@
 let exp;
-let buttonClick=new Audio("bubble-click.wav");
-let equalClick=new Audio("processing.mp3");
-let clearClick=new Audio("cork.mp3");
+let buttonClick=new Audio("sound/bubble-click.wav");
+let equalClick=new Audio("sound/processing.mp3");
+let clearClick=new Audio("sound/cork.mp3");
 //function for button control
 const buttons=document.querySelectorAll(".button");
 const display=document.querySelector("#numbers")
@@ -15,7 +15,7 @@ buttons.forEach(button=>{
         else if(evt.target.id=='='){
             equalClick.play();
             console.log(exp);
-            display.innerText=eval(exp);
+            display.innerText=eval(exp).toFixed(2);
         }
         else{
             buttonClick.play();
