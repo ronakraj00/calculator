@@ -2,7 +2,6 @@
     border: 0px solid black;
     border-radius: 16px;
 }
-
 #body{
     width: 300px;
     height: 520px;
@@ -31,7 +30,6 @@
     flex-wrap: wrap;
     justify-content: center;
     /* align-items: center; */
-
 }
 .button{
     border-radius: 16px;
@@ -43,10 +41,8 @@
     text-align: center;
     background-color:rgba(255, 235, 205, 0.271);
     margin: 0px;
-    font-family: "Pacifico", cursive;
-    
+    font-family: "Pacifico", cursive;   
 }
-
 #numbers{
     padding-right: 19px;
     padding-bottom: 5px;
