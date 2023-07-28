@@ -23,6 +23,7 @@ buttons.forEach(button=>{
             exp=display.innerHTML;   
         }
         
+        evt.stopPropagation();
     })
 });
 
